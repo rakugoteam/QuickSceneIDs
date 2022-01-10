@@ -8,6 +8,28 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Reference",
+"class": "ProjectTools",
+"language": "GDScript",
+"path": "res://addons/project-settings-helpers/ProjectTools.gd"
+}, {
+"base": "Reference",
+"class": "PropertyInfo",
+"language": "GDScript",
+"path": "res://addons/project-settings-helpers/PropertyInfo.gd"
+}, {
+"base": "Resource",
+"class": "SceneLinks",
+"language": "GDScript",
+"path": "res://addons/quick_scene_ids/SceneLinks.gd"
+} ]
+_global_script_class_icons={
+"ProjectTools": "",
+"PropertyInfo": "",
+"SceneLinks": ""
+}
+
 [application]
 
 config/name="Quick Scene IDs"
@@ -35,7 +57,7 @@ window/stretch/aspect="keep"
 
 [editor_plugins]
 
-enabled=PoolStringArray(  )
+enabled=PoolStringArray( "res://addons/quick_scene_ids/plugin.cfg" )
 
 [importer_defaults]
 
