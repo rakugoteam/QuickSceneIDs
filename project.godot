@@ -20,14 +20,14 @@ _global_script_classes=[ {
 "path": "res://addons/project-settings-helpers/PropertyInfo.gd"
 }, {
 "base": "Resource",
-"class": "SceneLinks",
+"class": "SceneIDs",
 "language": "GDScript",
-"path": "res://addons/quick_scene_ids/SceneLinks.gd"
+"path": "res://addons/quick_scene_ids/SceneIDs.gd"
 } ]
 _global_script_class_icons={
 "ProjectTools": "",
 "PropertyInfo": "",
-"SceneLinks": ""
+"SceneIDs": ""
 }
 
 [application]

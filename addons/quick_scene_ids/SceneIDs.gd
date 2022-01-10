@@ -1,6 +1,6 @@
 tool
 extends Resource
-class_name SceneLinks
+class_name SceneIDs
 
 export (Array, String) var ids:Array = []
 export (Array, PackedScene) var scenes:Array = []

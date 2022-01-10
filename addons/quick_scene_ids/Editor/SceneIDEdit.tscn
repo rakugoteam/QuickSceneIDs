@@ -73,7 +73,7 @@ margin_left = 467.0
 margin_right = 497.0
 margin_bottom = 30.0
 rect_min_size = Vector2( 24, 24 )
-hint_tooltip = "Remove this scene link"
+hint_tooltip = "Remove this scene id"
 text = "󱜉"
 icon = ExtResource( 4 )
 flat = true
@@ -93,8 +93,8 @@ resizable = true
 dialog_hide_on_ok = true
 mode = 0
 filters = PoolStringArray( "*.tscn" )
-current_file = "scene_links.tres"
-current_path = "res://scene_links.tres"
+current_file = "scene_ids.tres"
+current_path = "res://scene_ids.tres"
 
 [connection signal="text_changed" from="IDEdit" to="." method="_on_changed"]
 [connection signal="pressed" from="Choose" to="." method="_on_choose"]

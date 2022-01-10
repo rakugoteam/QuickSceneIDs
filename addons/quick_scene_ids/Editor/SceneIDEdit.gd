@@ -12,7 +12,7 @@ var id : String setget _set_id, _get_id
 var menu_rect_offset : Rect2
 
 signal changed
-signal removed(link)
+signal removed(id)
 
 func _ready() -> void:
 	menu_rect_offset = menu_rect

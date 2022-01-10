@@ -40,7 +40,7 @@ script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-scene_link_edit = ExtResource( 1 )
+scene_id_edit = ExtResource( 1 )
 
 [node name="HSeparator" type="HSeparator" parent="SceneIDs"]
 visible = false
