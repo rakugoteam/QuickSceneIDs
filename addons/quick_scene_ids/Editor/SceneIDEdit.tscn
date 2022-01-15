@@ -35,7 +35,6 @@ margin_right = 235.0
 margin_bottom = 30.0
 rect_min_size = Vector2( 24, 24 )
 hint_tooltip = "Choose from open scenes"
-text = "󱜋"
 icon = ExtResource( 2 )
 flat = true
 
@@ -51,7 +50,6 @@ margin_right = 269.0
 margin_bottom = 30.0
 rect_min_size = Vector2( 24, 24 )
 hint_tooltip = "Browse Scene"
-text = "󰿎"
 icon = ExtResource( 5 )
 flat = true
 
@@ -74,7 +72,6 @@ margin_right = 497.0
 margin_bottom = 30.0
 rect_min_size = Vector2( 24, 24 )
 hint_tooltip = "Remove this scene id"
-text = "󱜉"
 icon = ExtResource( 4 )
 flat = true
 
