@@ -10,7 +10,7 @@ var scene_ids: SceneIDs
 onready var box : BoxContainer = $ScrollContainer/VBoxContainer
 
 func _ready() -> void:
-	var setting = ProjectSettings.get("addons/scene_id/file_path")
+	var setting = ProjectSettings.get("addons/quick_scene_ids/file_path")
 	if setting == null:
 		return
 
