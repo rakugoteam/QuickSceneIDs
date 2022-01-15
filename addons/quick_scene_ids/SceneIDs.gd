@@ -19,6 +19,8 @@ func add(id:String, scene) -> void:
 		_dict[id] = scene
 
 
+
+
 func get_as_dict() -> Dictionary:
 	if _dict.empty():
 		for i in range(ids.size()):

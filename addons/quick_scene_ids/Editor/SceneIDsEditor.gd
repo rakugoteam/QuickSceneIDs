@@ -10,9 +10,12 @@ var scene_ids: SceneIDs
 onready var box : BoxContainer = $ScrollContainer/VBoxContainer
 
 func _ready() -> void:
+	var setting = ProjectSettings.get("addons/scene_id/file_path")
+	if setting == null:
+		return
+
 	$Add.icon = get_icon("CreateNewSceneFrom", "EditorIcons")
-	
-	file_path = ProjectSettings.get("addons/scene_id/file_path")
+	file_path = setting
 	init()
 
 
@@ -71,7 +74,7 @@ func _on_apply() -> void:
 func save_sl(_file_path:String, _scene_ids:SceneIDs):
 	var error := ResourceSaver.save(_file_path, _scene_ids)
 	if error != OK:
-		push_error("There was issue writing Sceneids to %s error_number: %s" % [file_path, error])
+		push_error("There was issue writing SceneIDs to %s error_number: %s" % [file_path, error])
 
 
 func _on_removed_id(id_node):
