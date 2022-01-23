@@ -18,16 +18,10 @@ _global_script_classes=[ {
 "class": "PropertyInfo",
 "language": "GDScript",
 "path": "res://addons/project-settings-helpers/PropertyInfo.gd"
-}, {
-"base": "Resource",
-"class": "SceneIDs",
-"language": "GDScript",
-"path": "res://addons/quick_scene_ids/SceneIDs.gd"
 } ]
 _global_script_class_icons={
 "ProjectTools": "",
-"PropertyInfo": "",
-"SceneIDs": ""
+"PropertyInfo": ""
 }
 
 [application]

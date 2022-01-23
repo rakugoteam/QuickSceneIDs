@@ -6,12 +6,12 @@ extends Reference
 # description: A utility for any features useful in the context of a Godot Project.
 # version: 1.2
 
-static func set_setting(p_name: String, p_default_value, p_pinfo: PropertyInfo) -> void:
-	p_pinfo.name = p_name
+static func set_setting(p_name: String, p_default_value, p_info: PropertyInfo) -> void:
+	p_info.name = p_name
 	if not ProjectSettings.has_setting(p_name):
 		ProjectSettings.set_setting(p_name, p_default_value)
 
-	ProjectSettings.add_property_info(p_pinfo.to_dict())
+	ProjectSettings.add_property_info(p_info.to_dict())
 	ProjectSettings.set_initial_value(p_name, p_default_value)
 
 static func set_settings_dict(settings_dict:Dictionary) -> void:
